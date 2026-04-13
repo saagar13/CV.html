@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+/* Header part Name-Job title and Adress section  */
+.header{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+
+.mainTitle{
+    color : #D9D9D9;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100em;
+    height: 10em;
+    font-size: .8em;
+    background-color: #353535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address{
+    width: 75em;
+    height: 8em;
+    font-size: .9em;
+    font-weight: bolder;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #124559;
+}
+h3{
+    color : #326273;
+    margin-top: 1em;
+}
+a{
+    color: #F28444;
+    text-decoration: none;
+}
+a:hover, a:visited{
+    color : rgb(0, 153, 255);
+    text-decoration: underline;
+}
+/* list item of Hard skills and Soft skills */
+.skillSection{
+    display: flex;
+    background-color: #F0F7F4;
+    padding: 1em;
+}
+.hardSkill{
+    width: 40em;
+    border-right: 2px solid gray;
+}
+.softSkill{
+    width: 40em;
+}
+.softSkillList{
+    margin-top: .8em;
+}
+/* Education and Certifications */
+.educationSection{
+    background-color: #F0F7F4;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 1em;
+}
+h4{
+    color: #005C53;
+    margin-top: .7em;
+}
+.mainText{
+    color: #124559;
+}
+.subTitle{
+    color: #598392;
+    margin-top: 1em;
+}
+/* Icons  */
+.fa-regular{
+    color: #AEC3B0;
+}
+.fa-solid{
+    color: #124559;
+}
+/* Footer fields  */
+footer{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #D9D9D9;
+}
+.fa-linkedin{
+    color: #3185FC;
+}
+.fa-globe{
+    color: #3891A6;
+}
